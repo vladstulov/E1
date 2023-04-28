@@ -1,0 +1,92 @@
+.navigation{
+    float: right;
+    height: 100%;
+    padding: 10px 80px;
+}
+ 
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 8px;
+    background-color: LightGreen;
+    text-decoration: none;
+}
+ 
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+}
+ 
+.navigation a:hover{
+    background-color: pink;
+    color: #99FF66;
+}
+
+
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: LightGreen;
+}
+
+.inner-header{
+    width: 100%;
+}
+
+.logo-container{
+    width: 30%;
+    color: #666639;
+    padding: 10px 90px;
+    float: left;
+   }
+
+.page{
+    max-width: 1200px;
+}
+
+
+p{
+    color: #993399;
+    text-indent: 10px;
+    text-align:justify;
+}
+
+.content{
+    font-size: 16px;
+    height: 450px;
+}
+
+.background{
+    background: #B0E0E6;
+}
+
+.bckgrndCont{
+    background: url("../images/06.jpg");
+}
+
+.imgAlign {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+.contacts a{
+    padding: 0px 5px;
+}
+
+.contacts a li{
+    font-size: 30px;
+    color: #453569;
+    padding: 10px;
+    margin-left: 280px;
+    width: 100px;
+    text-align:left;
+    list-style-type: none;
+}
+
+.contacts li:hover{
+    color: #101010;
+    background-color: pink;
